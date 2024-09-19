@@ -212,7 +212,32 @@ export default (() => {
 							hover-color="--lightD2"
 							hover-border-color="--color-dark"
 						>
-							Check our Trello
+							Check our Knowledge Base
+						</Link>
+						<Link
+							href="https://trello.com/b/NeoOMCKM/superconscious-knowledge-base"
+							padding="10px 24px 10px 24px"
+							color="--darkL1"
+							text-decoration-line="initial"
+							font="--lead"
+							border-radius="8px"
+							margin="0px 16px 0px 0px"
+							border-width="2px"
+							border-style="solid"
+							border-color="--color-darkL1"
+							transition="color 0.2s ease-in-out 0s,border 0.2s ease-in-out 0s"
+							sm-margin="0px 0px 0px 0px"
+							sm-text-align="center"
+							hover-background="--color-purple"
+							lg-margin="0px 0px 0px 0px"
+							hover-transition="color 0.2s ease-in-out 0s,border 0.2s ease-in-out 0s"
+							hover-color="--lightD2"
+							hover-border-color="--color-dark"
+						>
+							Check our{" "}
+							<Strong>
+								Kanban board
+							</Strong>
 						</Link>
 					</Box>
 				</Box>
@@ -289,9 +314,10 @@ export default (() => {
 					sm-font="normal 400 14px/1.5 &quot;Manrope&quot;, sans-serif"
 					md-font="normal 400 14px/1.5 &quot;Manrope&quot;, sans-serif"
 				>
-					Our time is devoted to Generative AI: we work on efficient (low-resource) LLM use cases as well as image generation.{" "}
+					Our time is devoted to Generative AI: we work on low-resource-cost LLM applications (software engineering aka.  as well as generative AI for image generation.{" "}
 					<br />
-					As a student-driven research group we look out for the little guy - and represent and underrepresented demographic in the public discourse around AI systems.
+					<br />
+					As a student-driven research group our main interest lies in learning and testing at a low - and represent and underrepresented demographic in the public discourse around AI systems.
 				</Text>
 			</Box>
 		</Section>
@@ -488,7 +514,7 @@ export default (() => {
 						The Fun Garage
 					</Text>
 					<Text font="--headline4">
-						From advanced troll-botics to NSFW image generation - fun comes first!
+						Machine Learning for fun - what could possibly go wrong?
 					</Text>
 					<Box min-width="100px" min-height="100px">
 						{"    "}
@@ -508,7 +534,7 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}Automated trolling on /r/TU_HH
+							{"      "}What Automated trolling on /r/TU_HH{" "}
 						</Text>
 						{"        "}
 						<Text

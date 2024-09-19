@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://superconscious-ai.de/sitemap-index.xml
+Sitemap: https://charming-griffin-bd2c0a.netlify.app/sitemap-index.xml
