@@ -37,7 +37,8 @@ export default {
 		"red": "#DE350B",
 		"purple": "#FD6DF9",
 		"indigo": "#9B6CFC",
-		"white": "#ffffff"
+		"white": "#ffffff",
+		"inverter2": ""
 	},
 	"fontFamily": {
 		"sans": "-apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
@@ -77,7 +78,8 @@ export default {
 		"rotate90": "rotate(90deg)",
 		"rotate180": "rotate(180deg)",
 		"flipX": "scaleX(-1)",
-		"flipY": "scaleY(-1)"
+		"flipY": "scaleY(-1)",
+		"inverter": ""
 	},
 	"transition": {
 		"opacityOut": "opacity --transitionDuration-normal --transitionTimingFunction-easeOut",

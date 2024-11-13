@@ -156,6 +156,28 @@ export default (() => {
 				width="25%"
 				padding="0px 32px 0px 0px"
 			>
+				Agentic AI{" "}
+			</Text>
+			<Link href="https://www.datacamp.com/datalab/w/2830fcde-d8af-41bc-bd3e-ff0c12617675/edit" color="#000000" margin="0px 0px 20px 0px">
+				[sponsored by theoriq] Run your own agent on your own (decentralized) cloud infrastructure! [Python]
+			</Link>
+		</Section>
+		<Section
+			padding="60px 0 60px 0"
+			sm-padding="40px 0 40px 0"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" />
+			<Text
+				margin="0px"
+				font="--headline2"
+				md-font="--headline2"
+				color="--dark"
+				width="25%"
+				padding="0px 32px 0px 0px"
+			>
 				Generative AI
 			</Text>
 			<Text
@@ -216,24 +238,6 @@ export default (() => {
 				</Link>
 				<Image display="block" src="https://github.com/EthicalML/awesome-artificial-intelligence-guidelines/raw/master/images/bosstown.gif" max-width="inherit" margin="20px 0px 0px 0px" />
 			</Box>
-			<Text
-				margin="0px"
-				font="--base"
-				color="--grey"
-				width="25%"
-				padding="0px 32px 0px 0px"
-			>
-				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
-			</Text>
-			<Text
-				margin="0px"
-				font="--base"
-				color="--grey"
-				width="25%"
-				padding="0px 32px 0px 0px"
-			>
-				Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
-			</Text>
 		</Section>
 		<Section padding="54px 0 30px 0" quarkly-title="Footer" lg-padding="30px 0 20px 0">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
