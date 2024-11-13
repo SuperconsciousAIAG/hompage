@@ -314,10 +314,10 @@ export default (() => {
 					sm-font="normal 400 14px/1.5 &quot;Manrope&quot;, sans-serif"
 					md-font="normal 400 14px/1.5 &quot;Manrope&quot;, sans-serif"
 				>
-					Our time is devoted to Generative AI: we work on low-resource-cost LLM applications (software engineering aka.  as well as generative AI for image generation.{" "}
+					Our time is devoted to Generative AI: we work on low-resource-cost LLM applications, mainly software engineering as well as generative AI for image generation.{" "}
 					<br />
 					<br />
-					As a student-driven research group our main interest lies in learning and testing at a low - and represent and underrepresented demographic in the public discourse around AI systems.
+					As a student-driven research group our main interest lies in learning and testing at an accesible level - and represent stduents as a demographic in the public discourse around AI.
 				</Text>
 			</Box>
 		</Section>
@@ -361,7 +361,7 @@ export default (() => {
 					</Box>
 					{"  "}
 					<Text font="--headline4">
-						{"    "}Learning to operate AI models with productive use in mind{" "}
+						Run your personal AI locally!
 					</Text>
 					{"  "}
 					<Box min-width="100px" min-height="100px">
@@ -382,9 +382,8 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}Running on-premise LLMs (smol one){"\n    "}
+							{"      "}Running local LMs to augment study outcomes
 						</Text>
-						{"    "}
 						<Text
 							margin="0px 0px 0px 0px"
 							color="--greyD3"
@@ -401,9 +400,8 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}Working with and on image generation models{"\n    "}
+							Training (fine-tuning) language models for specific use cases (Small Language Models)
 						</Text>
-						{"    "}
 						<Text
 							margin="0px 0px 0px 0px"
 							color="--greyD3"
@@ -420,7 +418,7 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}Fine-tuning models for specific use cases - and filling our KB{"\n    "}
+							Doing all AI on the cheap, avoiding big tech!
 						</Text>
 						{"  "}
 					</Box>
@@ -438,7 +436,7 @@ export default (() => {
 						AI Assistants
 					</Text>
 					<Text font="--headline4">
-						Not just for student use cases. This is our proof-of-concept factory.
+						Not just for study use cases.
 					</Text>
 					<Box min-width="100px" min-height="100px">
 						{"    "}
@@ -458,7 +456,7 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}Discord-based Q&A bot for video lectures (Youtube only ATM)
+							{"  "}Discord-based Q&A bot for video lectures (obsolete)
 						</Text>
 						{"    "}
 						<Text
@@ -477,7 +475,7 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"  "}Absorbing paper-based student knowledge repos into a chatLLM{"     "}
+							{"  "}Personal AI as a studies progress tracker
 						</Text>
 						{"    "}
 						<Text
@@ -488,7 +486,6 @@ export default (() => {
 							display="flex"
 							align-items="center"
 						>
-							{"      "}
 							<Icon
 								category="md"
 								icon={MdCheckCircle}
@@ -496,7 +493,7 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}Can we run our own coursology.io ?{" "}
+							{"      "}AI Study guide/mentor creation (Syntea/coursology)?
 						</Text>
 						{"  "}
 					</Box>
@@ -511,10 +508,10 @@ export default (() => {
 						padding="6px 6px 6px 6px"
 					/>
 					<Text margin="0px 0px 18px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-						The Fun Garage
+						Just For Fun
 					</Text>
 					<Text font="--headline4">
-						Machine Learning for fun - what could possibly go wrong?
+						Machine Learning for fun
 					</Text>
 					<Box min-width="100px" min-height="100px">
 						{"    "}
@@ -534,9 +531,27 @@ export default (() => {
 								color="--purple"
 								margin="0px 8px 0px 0px"
 							/>
-							{"      "}What Automated trolling on /r/TU_HH{" "}
+							{"    "}AI memeING
 						</Text>
-						{"        "}
+						<Text
+							margin="0px 0px 0px 0px"
+							color="--greyD3"
+							font="--lead"
+							lg-text-align="left"
+							display="flex"
+							align-items="center"
+						>
+							{"      "}
+							<Icon
+								category="md"
+								icon={MdCheckCircle}
+								size="24px"
+								color="--purple"
+								margin="0px 8px 0px 0px"
+							/>
+							{"    "}How about a trollbot (GPT-J derived) for /r/tu_hh ?
+						</Text>
+						{"   "}
 						<Text
 							margin="0px 0px 0px 0px"
 							color="--greyD3"
@@ -583,29 +598,13 @@ export default (() => {
 					Our partners are a key part in making hands-on education accessible to our students! We are very grateful for the support received by:
 				</Text>
 			</Box>
-			<Box margin="40px 0px 0px 0px" display="flex" flex-direction="row" flex-wrap="wrap">
-				<Box
-					position="relative"
-					display="flex"
-					flex-direction="column"
-					margin="0px 0px 0px 0px"
-					lg-margin="0px 0px 0px 0px"
-					sm-width="calc(100% / 2)"
-					sm-margin="0px 0px 0px 0px"
-					width="calc(100% / 6)"
-					md-width="calc(100% / 3)"
-				/>
-				<Box
-					position="relative"
-					display="flex"
-					flex-direction="column"
-					margin="0px 0px 0px 0px"
-					lg-margin="0px 0px 0px 0px"
-					sm-width="calc(100% / 2)"
-					sm-margin="0px 0px 0px 0px"
-					width="calc(100% / 6)"
-					md-width="calc(100% / 3)"
-				/>
+			<Box
+				margin="40px 0px 0px 0px"
+				display="flex"
+				flex-direction="row"
+				flex-wrap="wrap"
+				className="inverted"
+			>
 				<Box
 					position="relative"
 					display="flex"
@@ -617,8 +616,54 @@ export default (() => {
 					width="calc(100% / 6)"
 					md-width="calc(100% / 3)"
 				>
+					<Link href="https://www.tuhh.de">
+						<Image src="https://uploads.quarkly.io/6464cddb0343c10023977ea1/images/TUHH_logo-wortmarke_en_rgb_schwarz.svg?v=2024-11-13T10:39:21.053Z" border-radius="16px" max-width="100%" filter="--grayscale" />
+					</Link>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					margin="0px 0px 0px 20px"
+					lg-margin="0px 0px 0px 0px"
+					sm-width="calc(100% / 2)"
+					sm-margin="0px 0px 0px 0px"
+					width="calc(100% / 6)"
+					md-width="calc(100% / 3)"
+				>
+					<Link href="https://www.asta.tuhh.de/">
+						<Image src="https://uploads.quarkly.io/6464cddb0343c10023977ea1/images/dgohgmqvn7bm3fq8ygc.svg?v=2024-11-13T10:37:32.259Z" border-radius="16px" max-width="100%" filter="--grayscale" />
+					</Link>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					margin="0px 0px 0px 20px"
+					lg-margin="0px 0px 0px 0px"
+					sm-width="calc(100% / 2)"
+					sm-margin="0px 0px 0px 0px"
+					width="calc(100% / 6)"
+					md-width="calc(100% / 3)"
+				>
+					<Link href="https://aric-hamburg.de/?lang=en">
+						<Image src="https://aric-hamburg.de/wp-content/uploads/Aric_Logo_White.png" border-radius="16px" max-width="100%" filter="--invert" />
+					</Link>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					margin="0px 0px 0px 20px"
+					lg-margin="0px 0px 0px 0px"
+					sm-width="calc(100% / 2)"
+					sm-margin="0px 0px 0px 0px"
+					width="calc(100% / 6)"
+					md-width="calc(100% / 3)"
+					filter="--invert"
+				>
 					<Link href="https://www.theoriq.ai/litepaper">
-						<Image src="https://cdn.prod.website-files.com/66e9164649f92a8503081c8b/66e9164649f92a8503081cac_A_Logotype.svg" border-radius="16px" max-width="100%" />
+						<Image src="https://cdn.prod.website-files.com/66e9164649f92a8503081c8b/66e9164649f92a8503081cac_A_Logotype.svg" border-radius="16px" max-width="100%" mix-blend-mode="exclusion" />
 					</Link>
 				</Box>
 				<Box
@@ -692,6 +737,50 @@ export default (() => {
 				empty-border-width="1px"
 				empty-border-style="solid"
 			>
+				<Box
+					width="300px"
+					height="300px"
+					border-radius="50%"
+					overflow="hidden"
+					display="flex"
+					justify-content="center"
+					align-items="center"
+				>
+					<Image
+						src="https://d2kq0urxkarztv.cloudfront.net/6459474038d4c8003c807e83/4253715/image-c048180c-ccf4-42ac-b005-ca5e7483f78f.png?w=254&e=webp&nll=true"
+						width="100%"
+						min-height="400px"
+						object-fit="cover"
+						object-position="80% 0%"
+						lg-min-height="200px"
+					/>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-flex-direction="row"
+					md-align-items="center"
+					md-justify-content="space-between"
+				>
+					<Text margin="16px 0px 13px 0px" font="--headline4" color="--dark" lg-font="600 16px/1.3 &quot;Manrope&quot;, sans-serif">
+						Stephan Fischer
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--lead">
+						B.Sc. Mechatronics, AI-Art & AI memeING
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				empty-border-color="LightGray"
+				width="33%"
+				padding="16px 16px 16px 16px"
+				md-width="100%"
+				empty-min-width="64px"
+				empty-min-height="64px"
+				empty-border-width="1px"
+				empty-border-style="solid"
+			>
 				{" "}
 				<Box
 					width="300px"
@@ -724,7 +813,7 @@ export default (() => {
 					<Box display="flex" alignItems="center">
 						{"    "}
 						<Text lg-font="600 16px/3 &quot;Manrope&quot;, sans-serif" margin="16px 8px 13px 0px" font="--headline4" color="--dark">
-							{"      "}Dawid Golebiewski
+							{"      "}Dawid
 						</Text>
 						<SocialMedia margin="0px 0px 0px -3px" justify-content="flex-start" linked-in="https://linkedin.com/in/dhoracy">
 							{"          "}
@@ -737,9 +826,9 @@ export default (() => {
 					</Box>
 				</Box>
 				<Text margin="0px" font="--lead">
-					TUHH Alumnus (IIW M.Sc), Volunteer Instructor
+					Volunteer Instructor (IIW M.Sc)
 					<br />
-					LLM & Applied AI Nerd
+					LLM & Applied AI/MLOps & Personal Automation
 				</Text>
 			</Box>
 			<Box
@@ -762,12 +851,14 @@ export default (() => {
 					align-items="center"
 				>
 					<Image
-						src="https://d2kq0urxkarztv.cloudfront.net/6459474038d4c8003c807e83/4253715/image-c048180c-ccf4-42ac-b005-ca5e7483f78f.png?w=254&e=webp&nll=true"
-						width="100%"
-						min-height="400px"
+						src="https://uploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png"
+						width="280px"
+						max-width="100%"
 						object-fit="cover"
 						object-position="80% 0%"
 						lg-min-height="200px"
+						srcSet="https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=500 500w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=800 800w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 				<Box
@@ -779,10 +870,12 @@ export default (() => {
 					md-justify-content="space-between"
 				>
 					<Text margin="16px 0px 13px 0px" font="--headline4" color="--dark" lg-font="600 16px/1.3 &quot;Manrope&quot;, sans-serif">
-						Stephan Fischer
+						Artur (no photo)
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--lead">
-						B.Sc. Mechatronics, Resident AI-Artist
+						M.Sc. CS
+						<br />
+						{"  "}Reinforcement Learning
 					</Text>
 				</Box>
 			</Box>
@@ -795,6 +888,7 @@ export default (() => {
 				empty-min-height="64px"
 				empty-border-width="1px"
 				empty-border-style="solid"
+				max-width="max-content"
 			>
 				<Box
 					width="300px"
@@ -806,12 +900,14 @@ export default (() => {
 					align-items="center"
 				>
 					<Image
-						src="https://pbs.twimg.com/profile_images/1614730592389668868/DrmacvHo_400x400.jpg"
-						width="100%"
-						min-height="400px"
+						src="https://uploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png"
+						width="280px"
+						max-width="100%"
 						object-fit="cover"
 						object-position="80% 0%"
 						lg-min-height="200px"
+						srcSet="https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=500 500w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=800 800w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 				<Box
@@ -823,13 +919,61 @@ export default (() => {
 					md-justify-content="space-between"
 				>
 					<Text margin="16px 0px 13px 0px" font="--headline4" color="--dark" lg-font="600 16px/1.3 &quot;Manrope&quot;, sans-serif">
-						Some of our members prefer not to be public on the web :)
+						Dorian (no photo)
 					</Text>
-					<SocialMedia margin="0px 0px 0px -3px" justify-content="flex-start" twitter="https://twitter.com/hvbris_">
-						{"          "}
-					</SocialMedia>
 					<Text margin="0px 0px 0px 0px" font="--lead">
-						CS B.Sc. and M.Sc. Students
+						B.Sc. CS
+						<br />
+						Fine-tuning LLM -&gt; SLM
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				empty-border-color="LightGray"
+				width="33%"
+				padding="16px 16px 16px 16px"
+				md-width="100%"
+				empty-min-width="64px"
+				empty-min-height="64px"
+				empty-border-width="1px"
+				empty-border-style="solid"
+				max-width="max-content"
+			>
+				<Box
+					width="300px"
+					height="300px"
+					border-radius="50%"
+					overflow="hidden"
+					display="flex"
+					justify-content="center"
+					align-items="center"
+				>
+					<Image
+						src="https://uploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png"
+						width="280px"
+						max-width="100%"
+						object-fit="cover"
+						object-position="80% 0%"
+						lg-min-height="200px"
+						srcSet="https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=500 500w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=800 800w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6464cddb0343c10023977ea1/images/SVG_SCAG.png?quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 767px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					md-width="100%"
+					md-flex-direction="row"
+					md-align-items="center"
+					md-justify-content="space-between"
+				>
+					<Text margin="16px 0px 13px 0px" font="--headline4" color="--dark" lg-font="600 16px/1.3 &quot;Manrope&quot;, sans-serif">
+						Abdul (no photo)
+					</Text>
+					<Text margin="0px 0px 0px 0px" font="--lead">
+						Instructor (M.Sc. CS)
+						<br />
+						Applied AI for Engineering Workloads (ext)
 					</Text>
 				</Box>
 			</Box>
