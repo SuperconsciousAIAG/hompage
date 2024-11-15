@@ -215,7 +215,7 @@ export default (() => {
 							Check our Knowledge Base
 						</Link>
 						<Link
-							href="https://trello.com/b/NeoOMCKM/superconscious-knowledge-base"
+							href="https://trello.com/b/hXlYdet9/aufgaben"
 							padding="10px 24px 10px 24px"
 							color="--darkL1"
 							text-decoration-line="initial"
@@ -233,6 +233,7 @@ export default (() => {
 							hover-transition="color 0.2s ease-in-out 0s,border 0.2s ease-in-out 0s"
 							hover-color="--lightD2"
 							hover-border-color="--color-dark"
+							target="_blank"
 						>
 							Check our{" "}
 							<Strong>
