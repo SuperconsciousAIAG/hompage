@@ -111,7 +111,7 @@ export default (() => {
 		<Section color="--dark">
 			<Override slot="SectionContent" />
 			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
-				Genesis // Our Goals
+				About
 			</Text>
 			<Box
 				margin="36px 0 0 0"
@@ -131,13 +131,16 @@ export default (() => {
 					icon={MdHelp}
 				/>
 				<Text as="h3" font="--headline3" margin="10px 0">
-					Where did Superconscious AG come from?
+					What is the point of SCAG?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It all begins with an idea. In 2019 our founders were on a neuroscience hypewave. With experience in BCI and alternate states of consciousness we sought to methodically explore how to grow and escape the mental limitations put on us. We raised a lot of time-series data from EEGs after running VR + EEG experiments in our rooms. COVID broke apart the team, most people graduated. What we were left with was data. So we started generating EEG-based art, which sort of worked. And then DALL-E, GPT-3.5 and Stable Diffusion happened.{" "}
+					<Strong>
+						A Place for Creative Machine Learning
+					</Strong>
 					<br />
 					<br />
-					And we knew what to do from then on out.
+					Sometimes, the most intriguing journeys begin with a simple idea. Around 2019, a group of enthusiasts with a shared interest in the intersection of technology and human cognition embarked on a collaborative exploration. Their early experiments involved collecting various forms of data, leading to creative outputs that blended art and technology. As advancements in machine learning emerged, they found new avenues to channel their curiosity and innovation.
+					<div />
 				</Text>
 			</Box>
 			<Box
@@ -161,20 +164,7 @@ export default (() => {
 					What do you want to achieve?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					We want to be an internal accelerator for AI projects launched by students in Hamburg. We lament that Bologna has destroyed the much-cherished free-wheeling explorative study culture and instead led to students being so dialed into their studies they only have 20 minutes per day for memes before they have to race to prepare for the next underwhelming deliverable at uni ...
-					<br />
-					<br />
-					All while the world of technology, human-computer interaction and frankly, all culture is rapidly changing, right in front of our eyes. But the eyes are wide shut.
-					<br />
-					<br />
-					Our express goal is to{" "}
-					<br />
-					<br />
-					- help students from any local university play and work on ML-based projects, be they art, AI agents or simple data science
-					<br />
-					- when opportune: help transition into a startup format if an idea gains traction
-					<br />
-					- showcase AI applications that are directly beneficial to the core processes of the university and city
+					This initiative serves as a platform for students and aficionados, to delve into machine learning projects that span various domains—from artistic expressions to practical applications. Our goal is to help each other work on no-pressure ML projects, be it art, agentic AI or just data science - and showcase the outputs.
 				</Text>
 			</Box>
 			<Box
@@ -198,50 +188,11 @@ export default (() => {
 					What is in it for me?
 				</Text>
 				<Text as="p" font="--lead" margin="10px 0" color="--greyD2">
-					It is really simple: education without fun and experimentation leads to worse outcomes. You need a passion. We are a vehicle for all those whose passion lies in{" "}
-					<br />
-					<br />
-					- automating parts of their lives at a high fidelity
-					<br />
-					- experimenting with state of the art machine learning technology{" "}
-					<br />
-					- building ML/AI-enabled software to help fellow students
-					<br />
-					<br />
-					and most importantly
-					<br />
-					<br />
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
-					>
-						- share what you learned.{" "}
-						<br />
-						<br />
-						In the end, you are the master of your fate. The choice is simple:
-						<br />
-					</Strong>
+					It is really simple: education without fun and experimentation leads to worse outcomes. You need a passion. Learning and sharing what we learned is the way.
 				</Text>
 				<Box min-width="100px" min-height="100px">
-					<Text margin="0px 0px 0px 0px" max-width="25vw" text-align="center" font="24px Roboto">
-						<br />
-						<Link href="https://quarkly.io/preview#/https://en.wikipedia.org/wiki/Homo_Deus:_A_Brief_History_of_Tomorrow">
-							Homo Deus
-						</Link>
-						{" "}or{" "}
-						<Link href="https://quarkly.io/preview#/https://en.wikipedia.org/wiki/Herd_behavior#Sheeple">
-							Sheeple
-						</Link>
-						{" "}?
-					</Text>
 					<Image
-						src="https://pbs.twimg.com/media/EewgJk5VoAAQY2I?format=jpg&name=4096x4096"
+						src="https://media1.tenor.com/m/ExjXVf1HXsAAAAAd/mando-way-mandalorian.gif"
 						display="block"
 						object-fit="scale-down"
 						className="redbluepill"
@@ -249,7 +200,7 @@ export default (() => {
 						height="50% content-box"
 						max-width="25vw"
 						margin="2vw 0px 0px 0px"
-						box-shadow="5px 0 25px 1px rgba(214, 18, 171, 0.66)"
+						box-shadow="5px 0 25px 1px rgba(6, 6, 6, 0.03)"
 						filter="invert(5%) brightness(200%)"
 					/>
 				</Box>
@@ -306,7 +257,7 @@ export default (() => {
 					lg-font="normal 400 16px/1.5 &quot;Manrope&quot;, sans-serif"
 					href="/404"
 				>
-					Genesis / Our Goals
+					About
 				</Link>
 			</Box>
 			<Box
